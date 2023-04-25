@@ -275,10 +275,54 @@ padding-top: 30px;
     color: orange;
 }
 
-
+ .build .green{
+color: greenyellow;
+}
 /* footer----- */
+.footermain{
+    background-color: #18161682;
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    margin-top: 5%;
+    
+    }
+    .only{
+        font-weight: lighter ;
+        color:  #fff;
+        text-align: center;
+       }
+       
+     
+       .lists{
+         color: #fff;
+         font-weight: lighter;
+       }
+hr{
+    background-color: aqua;
+}
 
-  
- 
+  .privacy{
+margin-left: 790px;
+
+  }
+  .footer__copy{
+    margin-top: 20px;
+  }
+  .design-button{
+    background-color: #47454570;
+    border-radius: 20px;
+
+  }
+ .btn2{
+background-color: greenyellow;
+margin-left: 30px;
+width:100px;
+height: 50px;
+border-radius: 20px;
+border: none;
+ }
 
   
