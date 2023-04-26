@@ -403,7 +403,7 @@ border: none;
 
 
 
-@media(min-width: 601px) and (max-width: 900px) {
+@media(min-width: 601px) and (max-width: 1000px) {
  *{
   overflow-x: hidden;
  }
@@ -414,6 +414,7 @@ border: none;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    max-width: 100%;
 
    
   }
@@ -424,13 +425,25 @@ border: none;
     justify-content: space-between;
     align-items: center;
   }
-  .wordAndDivs{
-
-    margin-bottom: 0%;
-  }
+  
   h1,h2,h3{
     font-size: small;
   }
+
+  .wordAndDivs{
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    left: 0px;
+    flex-wrap: wrap;
+    gap: 60px;
+    
+     }
+     nav{
+      max-width: 100%;
+     }
   
 }
  @media (max-width:400px){
@@ -456,8 +469,21 @@ p{
  .view{
   margin-right: 0px;
  }
+ *{
+  overflow-x: hidden;
+}
+  body {
+    font-size: 16px;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
 
+   
+  }
 
 
 
  }
+
+ 
